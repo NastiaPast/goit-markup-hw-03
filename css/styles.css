@@ -57,11 +57,13 @@ img {
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: var(--header-border-color);
+  padding-top: 24px;
+  padding-bottom: 25px;  
 }
 .profile,
 .main-nav {
   display: flex;
-  align-items: center;
+  align-items: center; 
 }
 .logo {
   font-family: Raleway, cursive;
@@ -81,9 +83,6 @@ img {
 }
 .site-nav .link {
   display: block;
-  padding-top: 20px;
-  padding-bottom: 20px;
-
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
